@@ -701,9 +701,8 @@
   },
   "Asset_02_rare_01_BACKGROUND_OVERLAY_gunner": {
     "contracts": [
-      "0x0bC1C13ddE77244fBdA26310272a41e828D08E6A",
+      "0xda88d6557ae61cfa3fc9155e71b00c12654ca250",
       "0x5f36B6B8Fc389c865F3D9536Fb10982Daf188887",
-      "0xc1d07B08FB2750cf350828d1B641A23A4781cCeD",
       "0x2B67C3d67633484F8f974195cC9c843a1dcb2aeb",
       "0xcd9Dcfb3dc0248e7f505542689f6030b0Dc8c38d",
       "0xeB48E1b62765f2D523C48785063C0aDa2032eecd",
@@ -711,7 +710,8 @@
       "0x9619Ea26d6fddC4F6f4AfAf51D47B53DbF8b1f66",
       "0xaE8832815ec224bbC1365C05E67e59849B13817b",
       "0x260F79dc941FC4cA28161566aeeDF11b894Dd20B",
-      "0x90d028D9EEB96d487Cbaa31F4f16c95165F33cc2"
+      "0x90d028D9EEB96d487Cbaa31F4f16c95165F33cc2",
+      "0x607ce3a3c8fef957f7deaad61034eac1d2990587"
     ],
     "colors": ["#D50409", "#BABABA", "#A4A4A4"],
     "run": true,
@@ -757,9 +757,8 @@
   },
   "Asset_02_rare_01_BACKGROUND_OVERLAY_tweetybord": {
     "contracts": [
-      "0x012ddAD6Ff79d0196b99757fc07c93Df0fB18f0e",
+      "0x38d1260364df13e6cf3633fb33785487fc97e546",
       "0x33d6a505401AD8143FbB1d79f0AaAF3F187CB85d",
-      "0x42342c4383513347Bc3Ab5A336a063F66aD035D9",
       "0x4cc703e89E66767A3b0D3542FE4Da02164329D2c",
       "0x7C57ABa77Fa9055133446FCfD51132efcB0C16da",
       "0xDcDa302fCD234898ED14d5954eb843f8dC0Bf0F7",
@@ -767,7 +766,8 @@
       "0x742b818a2e411475D71f414B435206DcaA295f98",
       "0xBbc328e6e01d2Ec40265fEb9Ba7F033C1B19A500",
       "0xb6474950Bdadd947F4F8895f20Ad86D118eaFB7b",
-      "0x5D084be77F5F35F4548B89872756FE19d01D661D"
+      "0x5D084be77F5F35F4548B89872756FE19d01D661D",
+      "0xa3a3d85a7653ba0ffaa5d902951a26bcb42c4d48"
     ],
     "colors": [
       "#810306",
@@ -1638,8 +1638,8 @@
     "type": "Kanji"
   },
   "Asset_03_superrare_06_KANJI_03": {
-    "contracts": ["0xEc35799d9132352Cb679BEfc06318416d6d56aAa"],
-    "colors": ["#810306"],
+    "contracts": ["0x9b76475c4fbac9a83045fc11d2f2a64940087d8c","0x28f328b7b4e44acdca078b22e191a164a8b02f7f"],
+    "colors": ["#D1D1D1", "#008CBE", "#FFD635", "#3690EA", "#2450A4"],
     "run": true,
     "index": 132,
     "name": "Built on Base",
