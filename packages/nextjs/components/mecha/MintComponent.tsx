@@ -1,9 +1,7 @@
 import { FC, useEffect } from "react";
-import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
+import MintButton from "~~/components/mecha/buttons/MintButton";
 import { useMintPack } from "~~/hooks/useMintPack";
-
-const MintButton = dynamic(() => import("~~/components/mecha/buttons/MintButton"), { ssr: false });
 
 const MintComponent: FC = () => {
   const router = useRouter();
@@ -24,8 +22,10 @@ const MintComponent: FC = () => {
     <>
       <div className="absolute top-[42%]">
         <div className="flex flex-col w-full h-full justify-center items-center">
-          <div className="w-full h-4 text-center">
-            {minting && <p className="animate-pulse text-lg font-bold">Minting in progress...</p>}
+          <div className="w-full h-20 text-center">
+            {minting && !isSuccess && !isError && (
+              <p className="animate-pulse text-lg font-bold">Minting in progress...</p>
+            )}
             {isSuccess && <p className="animate-pulse text-lg font-bold">Pack minted! Redirecting... </p>}
             {isError && <p>An error occurred. Please try again.</p>}
           </div>
